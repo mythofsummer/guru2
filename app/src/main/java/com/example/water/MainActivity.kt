@@ -13,7 +13,6 @@ import android.widget.Toast
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-
     lateinit var mainImage: ImageButton
     lateinit var btnAdd: Button
     lateinit var btnAlarm: Button

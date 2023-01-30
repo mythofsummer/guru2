@@ -12,7 +12,6 @@ import android.widget.EditText
 var count = 1
 
 class user_setting : AppCompatActivity() {
-
     lateinit var dbManager: DBManager
     lateinit var sqlitedb: SQLiteDatabase
     lateinit var btnRegist: Button

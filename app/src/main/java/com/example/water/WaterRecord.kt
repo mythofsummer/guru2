@@ -16,6 +16,7 @@ class WaterRecord : AppCompatActivity() {
     lateinit var dbManager: DBManager
     lateinit var sqlitedb: SQLiteDatabase
 
+
     lateinit var goalTextView: TextView
     lateinit var drink100mlButton: Button
     lateinit var drinkStatusTextView: TextView

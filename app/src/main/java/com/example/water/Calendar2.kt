@@ -18,7 +18,6 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 class Calendar2 : AppCompatActivity() {
-
     var myID: String = "myID"
     lateinit var myName: String
     lateinit var calendar: CalendarView

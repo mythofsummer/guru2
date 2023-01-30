@@ -6,7 +6,6 @@ import android.content.Intent
 import androidx.core.app.NotificationCompat
 
 class AlertReceiver : BroadcastReceiver() {
-
     override fun onReceive(context: Context?, intent: Intent?) {
         var notificationHelper:NotificationHelper= NotificationHelper(context)
 

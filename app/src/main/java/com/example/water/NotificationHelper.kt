@@ -13,7 +13,6 @@ import androidx.core.app.NotificationCompat
 class NotificationHelper(base: Context?) : ContextWrapper(base) {
     private val channelID="channelID"
     private val channelNm="channelNm"
-
     init{
         //안드로이드 버전이 오레오거나 이상이면 채널 생성
         if(Build.VERSION.SDK_INT>= Build.VERSION_CODES.O){

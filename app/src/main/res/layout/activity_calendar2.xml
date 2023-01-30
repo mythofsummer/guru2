@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".Calendar2">
-
     <CalendarView
         android:id="@+id/calendar"
         android:layout_width="match_parent"
